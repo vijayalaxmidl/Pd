@@ -1,0 +1,12 @@
+<html>
+<body>
+	<h> OFFER LETTER</h>
+	<p>
+	{% for i in form %}
+		date:{{ i.doj }}<br>
+		Dear  {{ i.name }} ,<br>
+		u r appointed as -- with salary {{ i.salary }}
+		{% endfor %}
+	</p>
+</body>
+</html>

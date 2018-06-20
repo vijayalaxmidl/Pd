@@ -1,0 +1,15 @@
+<html>
+<body>
+	<form method="POST" >
+		{% csrf_token %}
+		
+		name:<input type="text" name="name"><br>
+		email:<input type="email" name="email"><br>
+		dof:<input type="date" name="dof"><br>
+		doj:<input type="date" name="doj"><br>
+		salary:<input type="text" name="salary"><br>
+		password:<input type="password" name="password"><br>
+		<input type="submit" >
+	</form>
+</body>
+</html>
