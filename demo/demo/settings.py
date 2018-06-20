@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': os.path.join(BASE_DIR, 'db.mysql'),
-        'USER':,
-        'PASSWORD':
+        # 'USER':,
+        # 'PASSWORD':
     }
 }
 
